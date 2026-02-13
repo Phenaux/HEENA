@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>HEENɅ</title>
+    <meta name="description" content="Master your habits. Build your character. A character progression habit tracker." />
+    <meta name="author" content="HEEN∧" />
+    <meta name="theme-color" content="#D4AF37" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="HEENA" />
+    <meta property="og:title" content="HEEN∧" />
+    <meta property="og:description" content="Master your habits. Build your character." />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%23D4AF37' width='100' height='100'/><text x='50' y='75' font-size='80' font-weight='bold' text-anchor='middle' fill='%23000'>H</text></svg>" />
+    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'><rect fill='%23D4AF37' width='180' height='180'/><text x='90' y='135' font-size='140' font-weight='bold' text-anchor='middle' fill='%23000'>H</text></svg>" />
+    <style>
+      .caret-symbol {
+        display: inline-block;
+        font-size: 1.3em;
+        line-height: 1;
+        vertical-align: -0.1em;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js').catch(() => {});
+      }
+    </script>
+  </body>
+</html>
