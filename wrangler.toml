@@ -1,32 +1,6 @@
 name = "heena"
-type = "javascript"
-account_id = ""
-workers_dev = true
-route = ""
-zone_id = ""
-compatibility_date = "2024-12-16"
-compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = "./dist"
 
-# Build configuration for Cloudflare Pages
-[env.production]
-vars = { ENVIRONMENT = "production" }
-
-[env.development]
-vars = { ENVIRONMENT = "development" }
-
-# D1 Database binding (optional)
-# [[d1_databases]]
-# binding = "DB"
-# database_name = "heena-db"
-# database_id = ""
-
-# KV binding (optional)
-# [[kv_namespaces]]
-# binding = "KV"
-# id = ""
-# preview_id = ""
-
-# R2 binding (optional)
-# [[r2_buckets]]
-# binding = "BUCKET"
-# bucket_name = "heena-storage"
+[assets]
+directory = "./dist"
+not_found_handling = "single-page-application"
