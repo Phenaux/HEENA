@@ -311,7 +311,7 @@ const Settings = () => {
             <p className="text-[10px] text-muted-foreground mt-3">
               HEENɅ is open source on{' '}
               <a 
-                href="https://github.com/skeapc0/HEENA" 
+                href="https://github.com/Phenaux/HEENA" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-primary hover:underline"

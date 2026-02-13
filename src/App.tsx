@@ -36,7 +36,7 @@ if (typeof window !== 'undefined') {
     welcomeStyle.header
   );
   console.log(
-    "%c✨ Open-source, privacy-first, offline-first\n%c📍 100% local storage - no data leaves your browser\n%c🔗 github.com/yourusername/heena",
+    "%c✨ Open-source, privacy-first, offline-first\n%c📍 100% local storage - no data leaves your browser\n%c🔗 github.com/Phenaux/HEENA",
     welcomeStyle.info,
     welcomeStyle.success,
     welcomeStyle.info
